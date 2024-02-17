@@ -1,4 +1,4 @@
-// import DocumentationContainer from "./pages/documentation/components/DocumentationContainer"
+import DocumentationContainer from "./pages/documentation/components/DocumentationContainer"
 import Home from "./pages/home/components/Home"
 import { Route, Routes } from "react-router-dom";
 import { motion } from "framer-motion"
@@ -21,7 +21,7 @@ function App() {
           <Routes>
             <Route path="*" element={<Home />} />
             <Route path="/home" element={<Home />} />
-            {/* <Route path="/docs/:id" element={<DocumentationContainer />} /> */}
+            <Route path="/docs/:id" element={<DocumentationContainer />} />
           </Routes>
 
 
