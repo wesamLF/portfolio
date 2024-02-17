@@ -15,7 +15,7 @@ function App() {
       <motion.div
         className="w-full h-full z-40 bg-custom-primary fixed"
         initial={{ height: "100%" }} animate={{ height: "0" }}
-        transition={{ duration: 2, delay:0, ease:"easeOut" }}
+        transition={{ duration: 1.5, delay:0, ease:"easeOut" }}
       /> 
         <section  className=" bg-custom-base " >
           <Routes>
