@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+.glass {
+    background: #ff5b2427;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.1px);
+    -webkit-backdrop-filter: blur(5.1px);
+    border: 1px solid rgba(255, 143, 46, 0.35);
+
+}
+.glass2 {
+    background: #ff5b248a;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.1px);
+    -webkit-backdrop-filter: blur(5.1px);
+    border: 1px solid rgba(255, 143, 46, 0.35);
+}
+
+
+@layer base {
+    :root {
+        --primary-color: #FF5B24;
+        --secondary-color: #FF8F2E;
+        --accent-color: #FC4508;
+        --text-color-base: #000000;
+        --text-color-inverted: var(--primary-color);
+        --text-color-secondary: var(--secondary-color);
+        --bg-color-base: #F9F1EA;
+        --bg-color-primary: var(--primary-color);
+        --bg-color-secondary: var(--secondary-color);
+
+    }
+
+    /* .dark {
+        --primary-color: #42B88D;
+        --secondary-color: #376253;
+        --accent-color: #00EB95;
+        --text-color-base: #000000;
+        --text-color-inverted: var(--primary-color);
+        --text-color-secondary: var(--secondary-color);
+        --bg-color-base: #CBE8F6;
+        --bg-color-primary: var(--primary-color);
+        --bg-color-secondary: var(--secondary-color);
+
+    } */
+
+}
