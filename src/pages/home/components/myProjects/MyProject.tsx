@@ -31,13 +31,13 @@ const MyProject = ({ projectData }: { projectData: projectType }) => {
                         </div>
                     </div>
                     <div className="flex flex-col md:flex-row gap-3">
-                        <MainBTN name={"documentation"} url={`../docs/${projectData.id}`} />
+                        <MainBTN name={"documentation"} url={`../docs/${projectData.id}`} blank={true} />
 
 
-                        <MainBTN name={"github "} url={projectData.github_link} />
+                        <MainBTN name={"github "} url={projectData.github_link} blank={true}/>
 
 
-                        <MainBTN name={"Live"} url={projectData.live_link} />
+                        <MainBTN name={"Live"} url={projectData.live_link} blank={true}/>
 
 
 

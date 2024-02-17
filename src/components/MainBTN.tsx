@@ -3,7 +3,7 @@
 import { NavHashLink  } from 'react-router-hash-link';
 
 
-const MainBTN = ({ name, url }: { name: string, url: string }) => {
+const MainBTN = ({ name, url , blank}: { name: string, url: string , blank?: boolean }) => {
 
 
     return (
@@ -13,7 +13,7 @@ const MainBTN = ({ name, url }: { name: string, url: string }) => {
             smooth
             className="w-full relative inline-flex items-center justify-center p-0.5 
              text-base md:text-xl font-medium rounded-lg  bg-gradient-to-br from-[#FC4508]  to-[#4c80037a] "
-             
+             target={blank ? "_blank" : undefined}
         >
             <span className="w-full h-full flex justify-center items-center relative px-5 py-1 transition-all ease-in duration-75 bg-custom-base rounded-md hover:bg-transparent">
                 {name}

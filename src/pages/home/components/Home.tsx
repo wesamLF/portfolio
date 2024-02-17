@@ -9,7 +9,8 @@ const Home = () => {
 
 
   return (
-    <>        <Nav />
+    <>     
+       <Nav />
       <section className='px-2 pb-16 md:px-40 max-w-[1800px] mx-auto'>
         <Hero />
         <TechSkillsContainer />
