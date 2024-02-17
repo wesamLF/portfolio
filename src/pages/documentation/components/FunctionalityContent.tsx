@@ -1,4 +1,4 @@
-import { functionalityType } from "../../../assets/."
+import { functionalityType } from "../../../../public/projectsData"
 
 const FunctionalityContent = ({ sectionTitle, data }: {
     sectionTitle: string,
