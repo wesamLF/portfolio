@@ -39,8 +39,7 @@ const Documentation = () => {
                 </ul>
             </div>
             <div className="py-5 mt-5 flex justify-between">
-                <h1 className="text-2xl font-semibold">Documentation, React website</h1>
-                <p className="text-gray-500 text-base">Last update: 2024/1/02 </p>
+                <h1 className="text-2xl font-semibold">Documentation</h1>
             </div>
             <div className="flex flex-row border px-3 md:px-10 py-14 mb-5 border-gray-300 relative">
                 {/* <div className=" flex-1 bg-redd-400  ">
