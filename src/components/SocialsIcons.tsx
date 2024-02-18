@@ -11,7 +11,7 @@ const SocialsIcons = ({ variant }: { variant: socialsIconsType }) => {
 
             <div className=" flex items-center flex-row gap-4 ">
                 <div  className="hover:text-gray-800">
-                    <a href="/files/cv1.pdf" className=" text-xl font-extrabold" target="_blank" > CV</a>
+                    <a href="/files/web-developer.pdf" className=" text-xl font-extrabold" target="_blank" > CV</a>
 
 
                 </div>
