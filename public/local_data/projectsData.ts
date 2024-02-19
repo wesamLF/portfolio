@@ -30,7 +30,7 @@ export const projectsData: projectType[] = [
     },
     {
         id:2,
-        project_title: `Titles Generater`,
+        project_title: `Titles Generator`,
         project_desc: "Full-stack platform that automate the process of generating catchy and engaging titles for YouTube videos. The system collects relevant data and utilizes the power of GPT3.5-turbo.",
 
        
